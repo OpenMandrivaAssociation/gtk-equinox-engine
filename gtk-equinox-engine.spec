@@ -1,6 +1,6 @@
 %define tarname	equinox-gtk-engine
 %define name	gtk-equinox-engine
-%define version	1.30.2
+%define version	1.50
 %define release %mkrel 1
 
 %define libname %mklibname %{name}
@@ -33,7 +33,7 @@ Requires:   gtk+2.0
 Library files for %{name}.
 
 %prep
-%setup -q -n equinox-1.30
+%setup -q -n equinox-1.50
 
 %build
 %configure2_5x --enable-animation
