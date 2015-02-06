@@ -1,7 +1,7 @@
 %define tarname	equinox-gtk-engine
 %define name	gtk-equinox-engine
 %define version	1.50
-%define release 1
+%define release 2
 
 %define libname %mklibname %{name}
 
