@@ -34,7 +34,7 @@ Library files for %{name}.
 
 %prep
 %setup -q -n equinox-1.50
-%apply_patches
+%autopatch -p1
 chmod u-x src/*
 
 %build
