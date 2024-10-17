@@ -16,7 +16,7 @@ Source1:	equinox-themes.tar.gz
 patch1:		equinox-gtk-engine-1.50.glibh.patch
 License:	GPLv2+
 Group:		Graphical desktop/Other
-Url:		http://www.gnome-look.org
+Url:		https://www.gnome-look.org
 Requires:	%{libname} = %{version}
 BuildRequires:	pkgconfig(gtk+-2.0) >= 2.12
 
