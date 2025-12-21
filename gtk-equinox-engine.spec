@@ -18,6 +18,11 @@ License:	GPLv2+
 Group:		Graphical desktop/Other
 Url:		https://www.gnome-look.org
 Requires:	%{libname} = %{version}
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(gtk+-2.0) >= 2.12
 
 %description
